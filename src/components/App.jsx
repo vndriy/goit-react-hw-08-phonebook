@@ -1,7 +1,5 @@
 import { Component } from 'react';
-import { Phonebook, SectionInput } from './App.styled';
-import { Formik } from 'formik';
-import { Form, Field, Button } from './App.styled';
+import { Phonebook } from './App.styled';
 import { nanoid } from 'nanoid';
 import { ContactForm } from './ContactForm/ContactForm';
 import { Filter } from './Filter/Filter';
