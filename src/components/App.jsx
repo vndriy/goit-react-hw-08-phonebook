@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { useEffect, lazy } from 'react';
 import { useAuth } from 'hooks/useAuth';
 import { refreshUser } from '../redux/auth/operations';
